@@ -7,24 +7,26 @@
 		<meta name="keywords" content="calculadora, calsulator, sum, soma, subtração, divisão">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<title>calculadora</title>
+		<link rel="icon" href="https://fontawesome.com/icons/calculator?f=classic&s=solid" type="image/x-icon">
 	</head>	
 	<body>
 		<main class="container">
 			<form>
-				<input type="number" title="digite os números" placeholder="0">
+				<input type="number" title="digite os números" value="0"  disabled>
 			</form>
 
 			<ul>
-				<li><button><i class="fa-solid fa-a"></i><i class="fa-solid fa-c"></i></button></li>
-				<li><button><i class="fa-solid fa-plus"></i><i class="fa-solid fa-minus"></i></button></li>
-				<li><button><i class="fa-solid fa-percent"></i></button></li>
-				<li><button><i class="fa-solid fa-divide"></i></button></li>
+				<li><button data-value="ac"><i class="fa-solid fa-a"></i><i class="fa-solid fa-c"></i></button></li>
+				<li><button data-value="c"><i class="fa-solid fa-c"></i></button></li>
+				<li><button data-value="porcentagem"><i class="fa-solid fa-percent"></i></button></li>
+				<li><button data-value="divisao"><i class="fa-solid fa-divide"></i></button></li>
 			</ul>
 			<ul>
-				<li><button><i class="fa-solid fa-7"></i></button></li>
-				<li><button><i class="fa-solid fa-8"></i></button></li>
-				<li><button><i class="fa-solid fa-9"></i></button></li>
-				<li><button><i class="fa-solid fa-x"></i></button></li>
+				<li><button data-value="sete"><i class="fa-solid fa-7"></i></button></li>
+				<li><button data-value="oito"><i class="fa-solid fa-8"></i></button></li>
+				<li><button data-value="nove"><i class="fa-solid fa-9"></i></button></li>
+				<li><button data-value="muitiplicacao"><i class="fa-solid fa-x"></i></button></li>
 			</ul>
 			<ul>
 				<li><button><i class="fa-solid fa-4"></i></button></li>
@@ -46,6 +48,6 @@
 			</ul>
 		</main>
 	</body>	
-	
+
 	<script src="https://kit.fontawesome.com/46db288b2a.js" crossorigin="anonymous"></script>
 </html>
