@@ -4,7 +4,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-size: 16px;
-	color: #0c0c0c;
+	color: #fcfcfc;
 }
 
 
@@ -25,6 +25,7 @@ main form
 {
 	width: 100%;
 	max-width: 100%;
+	overflow: hidden;
 
 }
 
@@ -41,6 +42,7 @@ main form input
 	background: #0c0c0c;
 	color: #fcfcfc;
 	border: none;
+	overflow: auto;
 }
 
 main form input:focus
@@ -82,7 +84,7 @@ main ul li button
 
 main ul li button:hover
 {
-	outline: 8px solid rgba(0, 0, 0, 0.9);
+	outline: 8px solid rgba(50, 50, 50, 0.9);
 	transition: outline 0.2s;
 }
 
