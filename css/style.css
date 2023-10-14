@@ -42,7 +42,7 @@ main form input
 	background: #0c0c0c;
 	color: #fcfcfc;
 	border: none;
-	overflow: auto;
+	overflow: hidden;
 	outline: none;
 }
 
