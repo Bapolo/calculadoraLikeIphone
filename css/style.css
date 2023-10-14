@@ -18,11 +18,13 @@
 	height: 100vh;
 	background: #0c0c0c;
 	padding: 1rem;
+	max-width: 100%;
 }
 
 main form 
 {
 	width: 100%;
+	max-width: 100%;
 
 }
 
@@ -34,7 +36,7 @@ main form input
 	margin: 0 auto;
 	padding: 0.8rem;
 	text-align: right;
-	font-size: 2.5rem;
+	font-size: 5rem;
 	font-weight: 200;
 	background: #0c0c0c;
 	color: #fcfcfc;
@@ -75,6 +77,7 @@ main ul li button
 	color: #0c0c0c;
 	display: block;
 	transition: 0.5s;
+	cursor: pointer;
 }
 
 main ul li button:hover
